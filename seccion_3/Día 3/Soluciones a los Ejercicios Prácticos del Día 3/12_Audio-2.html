@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Audio 2</title>
+</head>
+
+<body>
+    <p>
+        <button onclick="test()">Click aqui</button>
+    </p>
+    <audio id="audioAlarma" controls>
+        <source src="Audios/alarma.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function test() {
+            var audio = document.getElementById('audioAlarma');
+            audio.play();
+        }
+    </script>
+</body>
+
+</html>
